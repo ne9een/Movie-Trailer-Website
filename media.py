@@ -8,7 +8,7 @@ class Movie():
         self.poster_image_url = poster_image
         self.trailer_youtube_url = trailer_youtube
  def show_trailer(self):
-		"""This module will open the movie's trailer in browser"""
+		"""This function will open the movie's trailer in browser"""
         webbrowser.open(self.trailer_youtube_url)
 		
 
